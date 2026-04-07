@@ -1,0 +1,3 @@
+[submodule "multimodal-seizure-detection"]
+	path = multimodal-seizure-detection
+	url = https://github.com/rohankumar-1/multimodal-seizure-detection.git
