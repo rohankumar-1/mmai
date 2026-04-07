@@ -1,0 +1,3 @@
+# Assignment 1
+
+The initial assignment was to extract modalities from a dataset of my choice. I chose to use the MIMIC-CXR dataset, which is a dataset of chest X-rays of patients with their corresponding radiology reports. I extracted x-rays (vision) and the reports (text) in several forms, including the findings, impressions, and history. Then, this assignment had us visualize the data in several ways.
