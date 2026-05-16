@@ -1,0 +1,21 @@
+{
+  "patient_id": "P008",
+  "modality": "CT_head_noncontrast",
+  "case_type": "subtle_progression",
+  "trajectory": [
+    {
+      "step": 1,
+      "report_text": "Minimal focal hyperdensity in left temporal region, indeterminate.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "new" }
+      }
+    },
+    {
+      "step": 2,
+      "report_text": "Slight increase in conspicuity of hyperdensity, suspicious for small hemorrhage.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "worsened" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "patient_id": "P010",
+  "modality": "CT_head_noncontrast",
+  "case_type": "conflicting_reports",
+  "trajectory": [
+    {
+      "step": 1,
+      "report_text": "Possible small right frontal hemorrhage cannot be excluded.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "new" }
+      }
+    },
+    {
+      "step": 2,
+      "report_text": "No hemorrhage identified on repeat evaluation.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "improved" }
+      }
+    },
+    {
+      "step": 3,
+      "report_text": "Previously questioned abnormality resolved; no hemorrhage.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "stable" }
+      }
+    }
+  ]
+}

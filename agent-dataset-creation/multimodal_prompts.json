@@ -1,0 +1,34 @@
+{
+    "bar_graph_prompts": [
+      {
+        "id": 1,
+        "name": "long_labels_abbreviation",
+        "description": "Very long category names that cause overlapping labels unless abbreviated or rotated.",
+        "prompt": "Create a bar chart for the following categories and values. Ensure all category names remain readable. If they overlap, shorten or abbreviate appropriately.\n\n• Superconducting_Material_Prototype_Version_Alpha → 14\n• Quantum_Resistant_Encryption_Module_Experimental → 9\n• Hybrid_NanoFabrication_Control_Subsystem → 22\n• Uncalibrated_Doppler_Spectroscopy_Array_Testing → 5\n\nMake the final visualization clean and readable."
+      },
+      {
+        "id": 2,
+        "name": "extreme_range_scaling",
+        "description": "One bar is much larger than others, hiding small values. Requires rescaling or annotation.",
+        "prompt": "Plot a bar chart for:\n• A → 1\n• B → 3\n• C → 2\n• D → 5000\n• E → 4\n\nAdjust formatting so that the small bars remain visually interpretable. You may rescale, annotate, or change the bar styles—whatever makes all values clearly visible."
+      },
+      {
+        "id": 3,
+        "name": "manual_grouped_bars",
+        "description": "Two data series must be grouped manually without grouped-bar tools. Requires spacing correction.",
+        "prompt": "I need a bar chart of monthly revenue for two product lines plotted in a single axis without grouped-bar tools:\n\nMonths = Jan, Feb, Mar, Apr\nProduct X = 4, 8, 9, 3\nProduct Y = 5, 2, 7, 6\n\nPlace bars side-by-side manually for each month. Ensure spacing is correct and the month labels do not collide. Fix the chart until it looks like a proper grouped bar chart."
+      },
+      {
+        "id": 4,
+        "name": "color_encoding_validation",
+        "description": "Color must encode statistical meaning; the model must verify visually that color mapping matches the data.",
+        "prompt": "Create a bar chart with the following values:\n\nK → 40\nL → 10\nM → 25\nN → 35\n\nApply this color rule:\n- Highest value must be bright red\n- Lowest value must be deep blue\n- All others must be gray\n\nRefine the plot until colors accurately reflect the ordering."
+      },
+      {
+        "id": 5,
+        "name": "dense_categories_crowding",
+        "description": "30 closely spaced categories create unreadable crowding unless spacing, rotation, or resizing is applied.",
+        "prompt": "Make a bar chart for values of 30 micro-categories:\nCategory01 = 3, Category02 = 1, … Category30 = 5\n\nEnsure all labels remain readable and the figure is not visually overcrowded. You may enlarge the figure, rotate labels, or adjust spacing as needed."
+      }
+    ]
+}

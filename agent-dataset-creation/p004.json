@@ -1,0 +1,28 @@
+{
+  "patient_id": "P004",
+  "modality": "CT_head_noncontrast",
+  "case_type": "progression",
+  "trajectory": [
+    {
+      "step": 1,
+      "report_text": "Small left basal ganglia hemorrhage noted.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "new" }
+      }
+    },
+    {
+      "step": 2,
+      "report_text": "Interval increase in size of left basal ganglia hemorrhage with mild mass effect.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "worsened" }
+      }
+    },
+    {
+      "step": 3,
+      "report_text": "Further expansion of hematoma with increased surrounding edema.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "worsened" }
+      }
+    }
+  ]
+}

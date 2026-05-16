@@ -1,0 +1,28 @@
+{
+  "patient_id": "P007",
+  "modality": "CT_head_noncontrast",
+  "case_type": "acute_then_stable",
+  "trajectory": [
+    {
+      "step": 1,
+      "report_text": "Acute subarachnoid hemorrhage in basal cisterns.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "new" }
+      }
+    },
+    {
+      "step": 2,
+      "report_text": "Subarachnoid hemorrhage unchanged.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "stable" }
+      }
+    },
+    {
+      "step": 3,
+      "report_text": "No interval change in hemorrhage burden.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "stable" }
+      }
+    }
+  ]
+}

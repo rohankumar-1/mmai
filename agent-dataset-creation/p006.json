@@ -1,0 +1,21 @@
+{
+  "patient_id": "P006",
+  "modality": "CT_head_noncontrast",
+  "case_type": "ambiguous",
+  "trajectory": [
+    {
+      "step": 1,
+      "report_text": "Subtle hyperdensity in right parietal region; cannot exclude small hemorrhage.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "new" }
+      }
+    },
+    {
+      "step": 2,
+      "report_text": "Findings less conspicuous; likely artifact rather than hemorrhage.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "improved" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "patient_id": "P003",
+  "modality": "CT_head_noncontrast",
+  "case_type": "positive",
+  "trajectory": [
+    {
+      "step": 1,
+      "report_text": "No acute intracranial hemorrhage.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "stable" }
+      }
+    },
+    {
+      "step": 2,
+      "report_text": "No hemorrhage or infarct.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "stable" }
+      }
+    },
+    {
+      "step": 3,
+      "report_text": "New small right temporal lobe intraparenchymal hemorrhage identified.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "new" }
+      }
+    }
+  ]
+}

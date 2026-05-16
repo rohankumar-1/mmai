@@ -1,0 +1,35 @@
+{
+  "patient_id": "P002",
+  "modality": "CT_head_noncontrast",
+  "case_type": "normal",
+  "trajectory": [
+    {
+      "step": 1,
+      "report_text": "No evidence of acute intracranial hemorrhage. Chronic changes only.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "stable" }
+      }
+    },
+    {
+      "step": 2,
+      "report_text": "No acute hemorrhage identified. Findings unchanged.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "stable" }
+      }
+    },
+    {
+      "step": 3,
+      "report_text": "No hemorrhage or infarct. Stable exam.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "stable" }
+      }
+    },
+    {
+      "step": 4,
+      "report_text": "No acute intracranial abnormality. No change from prior exam.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "stable" }
+      }
+    }
+  ]
+}

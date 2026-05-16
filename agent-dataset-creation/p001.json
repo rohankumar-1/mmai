@@ -1,0 +1,28 @@
+{
+  "patient_id": "P001",
+  "modality": "CT_head_noncontrast",
+  "case_type": "normal",
+  "trajectory": [
+    {
+      "step": 1,
+      "report_text": "No acute intracranial hemorrhage. Ventricles normal. No mass effect or midline shift.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "stable" }
+      }
+    },
+    {
+      "step": 2,
+      "report_text": "No intracranial hemorrhage or acute abnormality. Ventricles stable.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "stable" }
+      }
+    },
+    {
+      "step": 3,
+      "report_text": "No acute hemorrhage. No interval change.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "stable" }
+      }
+    }
+  ]
+}

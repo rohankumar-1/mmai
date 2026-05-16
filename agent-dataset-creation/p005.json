@@ -1,0 +1,21 @@
+{
+  "patient_id": "P005",
+  "modality": "CT_head_noncontrast",
+  "case_type": "chronic",
+  "trajectory": [
+    {
+      "step": 1,
+      "report_text": "Old resolved hemorrhage in right frontal lobe. No acute hemorrhage.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "stable" }
+      }
+    },
+    {
+      "step": 2,
+      "report_text": "No acute intracranial hemorrhage. Chronic encephalomalacia noted.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "true", "trend": "stable" }
+      }
+    }
+  ]
+}

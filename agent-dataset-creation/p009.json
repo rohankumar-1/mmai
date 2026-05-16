@@ -1,0 +1,21 @@
+{
+  "patient_id": "P009",
+  "modality": "CT_head_noncontrast",
+  "case_type": "negation_heavy",
+  "trajectory": [
+    {
+      "step": 1,
+      "report_text": "No acute intracranial hemorrhage. No evidence of bleeding.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "stable" }
+      }
+    },
+    {
+      "step": 2,
+      "report_text": "No hemorrhage is seen. No interval change.",
+      "ground_truth_findings": {
+        "hemorrhage": { "present": "false", "trend": "stable" }
+      }
+    }
+  ]
+}
